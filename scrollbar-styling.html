@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css scrollbar styling</title>
+    <style>
+        img{
+            width: 500px;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            margin: 50px 0 0 200px;
+            border: 1px solid red;
+            overflow: auto;
+        }
+        div::-webkit-scrollbar{
+            width: 20px;
+        }
+        div::-webkit-scrollbar-track{
+            border-radius: 10px;
+            background: linear-gradient(purple,red);
+
+        }
+        div::-webkit-scrollbar-thumb{
+            border-radius: 10px;
+            background: linear-gradient(yellow,red);
+        }
+        div::-webkit-scrollbar-corner{
+            background:red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="flower.jpg" alt="flower">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet harum temporibus nemo officia non eligendi voluptates deserunt a quidem excepturi ipsum suscipit aut, placeat pariatur quisquam necessitatibus repudiandae ullam illum eos reiciendis repellat consectetur officiis reprehenderit maxime. Sequi aliquam tenetur dicta blanditiis? Mollitia quisquam explicabo delectus sit, et vero, maiores magnam illum doloribus hic culpa, consectetur voluptate tempore architecto laboriosam! Omnis nostrum exercitationem, nisi dolores harum ipsa doloribus aspernatur dignissimos corrupti! Illum illo magnam, facere consequatur aut explicabo impedit maiores magni accusantium vel possimus ipsum repudiandae cupiditate, similique nam optio quae vero eligendi sint fuga assumenda? Laborum dolor dignissimos voluptates!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam non incidunt quae labore quisquam in voluptates rerum laudantium veniam, unde nobis doloribus, impedit officiis quaerat obcaecati soluta est vero numquam, ea sequi modi praesentium reiciendis velit commodi! Id ad ipsa laborum eos corrupti sed voluptate cumque aperiam explicabo adipisci architecto esse quam, illo beatae aut enim a magnam neque asperiores itaque. Autem eos deleniti impedit laudantium omnis molestias eaque quam excepturi eius, minima labore nulla, beatae suscipit aspernatur animi eligendi, quo veniam consequuntur? Dignissimos quod praesentium ex voluptatum provident officia architecto natus illo officiis consectetur. Ut reprehenderit vel voluptatem corrupti?
+
+    </div>
+    
+</body>
+</html>
